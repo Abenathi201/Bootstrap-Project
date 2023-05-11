@@ -1,5 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
-
-body {
-    background-color: #1E1E1E;
+*, ::after, ::before {
+    box-sizing: border-box;
 }
+
+    /* #carouselExampleCaptions {
+        width: 980px;
+    } */
+    /* height: 500px; */
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: cover;
+    object-position: center -100px;
+    height: 70vh;
+    overflow: hidden;
+}
+
+/* #carouselExampleCaptions .carousel-caption {
+    color: #000;
+    font-weight: 700;
+    bottom: 15px;
+} */

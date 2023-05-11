@@ -1,36 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
-  
-* {
-    padding: 0;
-    margin: 0;
+*, ::after, ::before {
     box-sizing: border-box;
 }
 
-body {
-    background-color: #FFFFFF;
+main {
+
+    background-color: #9f9c9c;
 }
 
-.testimonials-section {
-    background: var(--primary-color);
-    color: white;
-    display: flex;
+#carouselExampleCaptions {
+    width: 920px;
+    /* height: 500px; */
 }
 
-.lists {
-    background: #006BD6;
-    text-align: center;
-    padding: 2em 1em;
-    width: 80%;
-    margin: 0 auto 5em auto;
-    border-radius: 1em;
+#carouselExampleCaptions .carousel-item img {
+    object-fit: cover;
+    object-position: center -100px;
+    height: 70vh;
+    overflow: hidden;
 }
 
-.image {
-    width: 5em;
-    height: 5em;
-    border: 5px solid #006BD6;
-    border-radius: 50%;
-    margin-top: -4.5em;
+#carouselExampleCaptions .carousel-caption {
+    color: #000;
+    font-weight: 700;
+    bottom: 15px;
 }
-    
 
+#carouselExampleCaptions span {
+    color: #000;
+}

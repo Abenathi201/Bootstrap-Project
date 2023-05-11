@@ -1,5 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
-body {
-    background-color: #1E1E1E;
+.text-secondary {
+
+    background-color: #9f9c9c;
 }
